@@ -6,13 +6,13 @@
 
 body {
 	background-color: #f24a4a;
+	min-height: 100vh;
 }
 
 svg {
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	top: 5%;
+	left: 5%;
 }
 
 #logo path:nth-child(2) {
@@ -77,4 +77,8 @@ svg {
 	to {
 		stroke-dashoffset: 0px;
 	}
+}
+
+#logo {
+	animation-delay: 5s;
 }
