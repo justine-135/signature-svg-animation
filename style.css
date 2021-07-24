@@ -6,13 +6,27 @@
 
 body {
 	background-color: #f24a4a;
+}
+
+body::-webkit-scrollbar {
+	width: 0.25rem;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: white;
+}
+
+body::-webkit-scrollbar-track {
+	background-color: #f24a4a;
+}
+.container {
 	min-height: 100vh;
 }
 
 svg {
 	position: absolute;
 	top: 5%;
-	left: 5%;
+	left: 1%;
 }
 
 #logo path:nth-child(2) {
@@ -81,4 +95,13 @@ svg {
 
 #logo {
 	animation-delay: 5s;
+}
+
+h2 {
+	position: absolute;
+	bottom: 5%;
+	right: 1%;
+	text-transform: lowercase;
+	font-size: 1.6rem;
+	color: white;
 }
